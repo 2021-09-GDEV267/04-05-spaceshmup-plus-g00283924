@@ -96,6 +96,7 @@ public class Enemy : MonoBehaviour {
                     }
                     notifiedOfDestruction = true;
                     // Destroy this enemy
+                    score++;
                     Destroy(this.gameObject);
                 }
                 Destroy(otherGO);
