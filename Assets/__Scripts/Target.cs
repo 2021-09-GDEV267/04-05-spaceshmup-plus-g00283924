@@ -35,7 +35,7 @@ public class Target : MonoBehaviour
 
             int score = int.Parse(scoreGT.text);
 
-            score += 100;
+            score += -50;
 
             scoreGT.text = score.ToString();
 
